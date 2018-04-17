@@ -108,6 +108,20 @@ div#features {
     a:hover {
       color: white;
     }
+    a.is-selected {
+      border-bottom: 5px solid #e50914;
+      color: white;
+    }
+
+    article {
+      section {
+        display: none;
+        padding: 40px 0;
+      }
+      section.is-selected {
+        display: block;
+      }
+    }
   }
 }
 

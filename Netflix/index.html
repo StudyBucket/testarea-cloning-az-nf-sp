@@ -27,31 +27,48 @@
     <div id="features">
       <nav>
         <div class="center columns size-80">
-          <a href="#" class="column">
+          <a data-id="cancel" href="#" class="column is-selected">
             <img src="img/cancel.svg" alt="Cancel anytime">
+            <h2>
+              No commitments
+              <br>
+              Cancel online at anytime
+            </h2
+          </a>
+
+          <a data-id="anywhere" href="#" class="column">
+            <img src="img/watchanywhere.svg" alt="Watch anywhere">
             <h2>
               Watch anywhere
             </h2>
           </a>
 
-          <a href="#" class="column">
-            <img src="img/watchanywhere.svg" alt="Watch anywhere">
-            <h2>
-              No commitments
-              <br>
-              Cancel online at anytime
-            </h2>
-          </a>
-
-          <a href="#" class="column">
+          <a data-id="pickprice" href="#" class="column">
             <img src="img/pickprice.svg" alt="Pick your price">
             <h2>
               Pick your price
             </h2>
           </a>
         </div>
+
+        <article>
+          <section class="is-selected size-70" data-id="cancel">
+            <div class="columns">
+              <div class="column">
+                <h2>If you decice Netflix isn't for you - no problem. No commitment. Cancel online anytime.</h2>
+              </div>
+            </div>
+          </section>
+          <section data-id="anywhere">
+            About feature 2
+          </section>
+          <section data-id="pickprice">
+            About feature 3
+          </section
+        </article>
       </nav>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
   </body>
 </html>
